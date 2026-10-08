@@ -353,42 +353,33 @@ Os arquivos `.pkt` representam ambientes de prática para diagnóstico e são ac
 ## Estrutura do projeto
 
 
+```text
 projeto-infraestrutura-pme/
-│
 ├── README.md
-│
 ├── 01-topologia-base/
 │   ├── infraestrutura-pme-baseline.pkt
 │   └── README.md
-│
 ├── 02-vlans-e-segmentacao/
 │   ├── vlans-baseline.pkt
 │   └── README.md
-│
 ├── 03-roteamento-inter-vlan/
 │   ├── inter-vlan-baseline.pkt
 │   └── README.md
-│
 ├── 04-dhcp/
 │   ├── dhcp-baseline.pkt
 │   └── README.md
-│
 ├── 05-servidores-e-servicos/
 │   ├── servidores-baseline.pkt
 │   └── README.md
-│
 ├── 06-gerenciamento/
 │   ├── ssh-gerenciamento.pkt
 │   └── README.md
-│
 ├── 07-hardening/
 │   ├── hardening-baseline.pkt
 │   └── README.md
-│
 ├── 08-wan-e-isp/
 │   ├── wan-isp-baseline.pkt
 │   └── README.md
-│
 └── 09-troubleshooting/
     ├── README.md
     ├── 01-vlan-incorreta/
@@ -403,10 +394,7 @@ projeto-infraestrutura-pme/
     │   └── falha.pkt
     └── 06-ssh-incorreto/
         └── falha.pkt
-
-
----
-
+```
 ## Resultado
 
 Ao final do projeto, foi construída uma infraestrutura de PME funcional e progressiva, partindo de uma topologia física simples e chegando a um ambiente com:
